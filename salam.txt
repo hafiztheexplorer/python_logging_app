@@ -1,0 +1,12 @@
+[2025-09-30 17:16:27] Halo, test 1! selamat datang ke situsku
+[2025-09-30 17:17:30] Halo, test 1! selamat datang ke situsku
+[2025-09-30 17:18:48] Halo, test 3! selamat datang ke situsku
+[2025-09-30 17:18:53] Halo, test 2! selamat datang ke situsku
+[2025-09-30 17:19:07] Halo, test 2! selamat datang ke situsku
+[2025-10-02 08:00:19] Halo, tester2! selamat datang ke situsku
+[2025-10-02 08:16:34] Halo, tester2! selamat datang ke situsku
+[2025-10-02 08:21:45] Halo, tester2! selamat datang ke situsku
+[2025-10-02 08:30:11] Halo, tester2! selamat datang ke situsku
+[2025-10-02 08:33:23] Halo master!, kamu sudah datang, silahkan!
+[2025-10-02 08:37:43] Halo, coba masukkan! selamat datang ke situsku
+[2025-10-02 08:41:40] Halo, coba masukkan! selamat datang ke situsku

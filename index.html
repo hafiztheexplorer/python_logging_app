@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greeting App</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        h1 { color: #333; }
+        .message { color: #0066cc; }
+        .history { margin-top: 20px; color: #666; }
+        .history-item { margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Site</h1>
+    <form method="POST">
+        <label>Enter your name:</label>
+        <input type="text" name="nama">
+        <input type="submit" value="Submit">
+    </form>
+    {% if message %}
+        <p class="message">{{ message }}</p>
+    {% endif %}
+    <div class="history">
+        <h3>Greeting History</h3>
+<!-- Debug: Check if salam_history is reaching here -->
+        <p>Debug: salam_history length = {{ salam_history | length }}</p>
+        {% if salam_history %}
+            {% for line in salam_history %}
+                <p class="history-item">{{ line.rstrip() }}</p>
+            {% endfor %}
+        {% else %}
+            <p>No greetings yet!</p>
+        {% endif %}
+        </div>
+</body>
+</html>
